@@ -1,0 +1,16 @@
+<style>
+  body{
+    background-color: {{color}};
+  }
+</style>
+
+<h2>Hey {{name}}!</h2>
+
+<h2>Compliment Express</h2>
+
+{{compliment}}
+
+<form method="POST" action="/{{name}}/new">
+  <input type="text" name="name" placeholder="Your Compliment">
+  <button type="sumbit">Submit</button>
+</form>
